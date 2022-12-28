@@ -1,0 +1,58 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "2db5182d4a319c5534608ae0b7faaeb0f8f7a49a8b251aa9d8cb75619ff5c368"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.9"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "blinkstick": {
+            "hashes": [
+                "sha256:a9324e04a3733c89476182bddeb109b4487de0dc7d01f587e07e191d501cb365",
+                "sha256:eeabbb207180b46f92aec392dd508c24e6ddaede6101f4eb54e7a91bed424d08"
+            ],
+            "index": "pypi",
+            "version": "==1.2.0"
+        },
+        "paho-mqtt": {
+            "hashes": [
+                "sha256:2a8291c81623aec00372b5a85558a372c747cbca8e9934dfe218638b8eefc26f"
+            ],
+            "index": "pypi",
+            "version": "==1.6.1"
+        },
+        "pyusb": {
+            "hashes": [
+                "sha256:2b4c7cb86dbadf044dfb9d3a4ff69fd217013dbe78a792177a3feb172449ea36",
+                "sha256:a4cc7404a203144754164b8b40994e2849fde1cfff06b08492f12fff9d9de7b9"
+            ],
+            "index": "pypi",
+            "version": "==1.2.1"
+        },
+        "pywinusb": {
+            "hashes": [
+                "sha256:e2f5e89f7b74239ca4843721a9bda0fc99014750630c189a176ec0e1b35e86df"
+            ],
+            "version": "==0.4.2"
+        },
+        "tenacity": {
+            "hashes": [
+                "sha256:35525cd47f82830069f0d6b73f7eb83bc5b73ee2fff0437952cedf98b27653ac",
+                "sha256:e48c437fdf9340f5666b92cd7990e96bc5fc955e1298baf4a907e3972067a445"
+            ],
+            "index": "pypi",
+            "version": "==8.1.0"
+        }
+    },
+    "develop": {}
+}

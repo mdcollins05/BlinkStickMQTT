@@ -1,0 +1,11 @@
+[mqtt]
+clientID = blinkstickpi
+topic = blinkstickpi/color
+hostAddress = 10.10.3.4
+hostPort = 1883
+authUser = blinkstickpi
+authPass = mqttpassword
+
+[loop]
+# This is also effectively the minimum time a color will be displayed for
+duration = 5
