@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from blinkstick import blinkstick
-from tenacity import *
+from tenacity import retry, stop_after_attempt, wait_fixed
 from time import sleep
 
 import argparse
