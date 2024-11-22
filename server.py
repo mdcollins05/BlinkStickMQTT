@@ -81,6 +81,10 @@ def do_loop(loop_config):
     while True:
         #print(color_ttl)
         for color, ttl in copy.copy(color_ttl).items():
+            # If we get a message with a ttl of 0, immediately delete it and skip it in the loop
+            if ttl <= 0:
+                del color_ttl[color]
+                continue
             set_color(color)
             new_ttl = ttl - loop_time
             if new_ttl <= 0:
