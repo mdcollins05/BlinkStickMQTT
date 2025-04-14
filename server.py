@@ -21,6 +21,9 @@ def on_message(client, userdata, msg):
     global color_ttl
     print(f"Message received [{msg.topic}]: {msg.payload}")
     color, ttl = str(msg.payload.decode("utf-8")).split(",")
+    if color == "" or ttl == "":
+        return
+    
     if ttl == 0:
         if color in color_ttl:
             del color_ttl[color]
